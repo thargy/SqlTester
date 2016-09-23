@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 11
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thargy.SqlTester", "Thargy.SqlTester\Thargy.SqlTester.csproj", "{8816D529-E872-4471-87D2-14E869E844FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thargy.SqlTester.Test", "Thargy.SqlTester.Test\Thargy.SqlTester.Test.csproj", "{2526FA81-3110-4EC5-8867-E7FA4E62A910}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2526FA81-3110-4EC5-8867-E7FA4E62A910}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2526FA81-3110-4EC5-8867-E7FA4E62A910}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2526FA81-3110-4EC5-8867-E7FA4E62A910}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2526FA81-3110-4EC5-8867-E7FA4E62A910}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8816D529-E872-4471-87D2-14E869E844FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8816D529-E872-4471-87D2-14E869E844FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8816D529-E872-4471-87D2-14E869E844FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8816D529-E872-4471-87D2-14E869E844FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

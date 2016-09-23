@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Thargy.SqlTester.ColumnDefinition">
+    <Position X="8.75" Y="1.75" Width="2.5" />
+    <Members>
+      <Method Name="ColumnDefinition" Hidden="true" />
+      <Method Name="ToString" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AACAQCAAAACBAAAEABBAAAQAAABACDAAAACAAAAAICE=</HashCode>
+      <FileName>ColumnDefinition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Thargy.SqlTester.SqlExceptionPrototype">
+    <Position X="6.25" Y="8" Width="1.75" />
+    <Members>
+      <Field Name="_constructor" Hidden="true" />
+      <Method Name="implicit operator SqlException" Hidden="true" />
+      <Method Name="implicit operator SqlExceptionPrototype" Hidden="true" />
+      <Method Name="SqlExceptionPrototype" Hidden="true" />
+      <Method Name="ToString" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAgAAAQAkAEIIIAAAAAAAAABACAAABgAAAAA=</HashCode>
+      <FileName>SqlExceptionPrototype.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Thargy.SqlTester.ExceptionRecord" BaseTypeListCollapsed="true">
+    <Position X="3.5" Y="8" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>BACQACAgMCgAAAgAAAAABAIAAAJEAAQQIBRAAAAAJEA=</HashCode>
+      <FileName>ExceptionRecord.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Thargy.SqlTester.ObjectReader" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3.5" Y="0.5" Width="2.5" />
+    <Members>
+      <Field Name="_isClosed" Hidden="true" />
+      <Field Name="_recordEnumerator" Hidden="true" />
+      <Field Name="_recordSets" Hidden="true" />
+      <Field Name="_setEnumerator" Hidden="true" />
+      <Method Name="IEnumerable.GetEnumerator" Hidden="true" />
+      <Method Name="ObjectReader" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>BAKQAAAgMCgARBARCACABCYgABJEAEQ0IhQAIADQJEA=</HashCode>
+      <FileName>ObjectReader.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Thargy.SqlTester.ObjectRecord" BaseTypeListCollapsed="true">
+    <Position X="3.5" Y="5.75" Width="2.5" />
+    <Members>
+      <Field Name="_columnValues" Hidden="true" />
+      <Field Name="_recordSetDefinition" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>BAKQACAgICgAAgAACAAABAIAIAJEAAQQIBQAAAIAJFA=</HashCode>
+      <FileName>ObjectRecord.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Thargy.SqlTester.ObjectSet">
+    <Position X="3.5" Y="1.75" Width="2.5" />
+    <Members>
+      <Field Name="_definition" Hidden="true" />
+      <Field Name="_records" Hidden="true" />
+      <Method Name="GetEnumerator" Hidden="true" />
+      <Method Name="IEnumerable.GetEnumerator" Hidden="true" />
+      <Method Name="ObjectSet" Hidden="true" />
+      <Method Name="ToString" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAACBAUAAAABAQAEAAAEAAEAAAAAABQIAA=</HashCode>
+      <FileName>ObjectSet.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Thargy.SqlTester.RandomSet" Collapsed="true">
+    <Position X="3.5" Y="4.75" Width="2.5" />
+    <Members>
+      <Method Name="GenerateRecords" Hidden="true" />
+      <Method Name="RandomSet" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RandomSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Thargy.SqlTester.RecordSetDefinition">
+    <Position X="6.5" Y="1.75" Width="1.75" />
+    <Members>
+      <Field Name="_columnsArray" Hidden="true" />
+      <Field Name="ExceptionRecord" Hidden="true" />
+      <Method Name="RecordSetDefinition" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAABAACAAAAAAgAAAAAAAEIAAAAEgAAAA=</HashCode>
+      <FileName>RecordSetDefinition.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Thargy.SqlTester.SqlErrorCollectionPrototype" BaseTypeListCollapsed="true">
+    <Position X="8.25" Y="8" Width="2.25" />
+    <Members>
+      <Field Name="_adder" Hidden="true" />
+      <Field Name="_constructor" Hidden="true" />
+      <Method Name="GetEnumerator" Hidden="true" />
+      <Method Name="implicit operator SqlErrorCollection" Hidden="true" />
+      <Method Name="implicit operator SqlErrorCollectionPrototype" Hidden="true" />
+      <Method Name="SqlErrorCollectionPrototype" Hidden="true" />
+      <Method Name="ToString" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAACAABAUCAAAMAQAACAAAAAAAAAEAAAAIAA=</HashCode>
+      <FileName>SqlErrorCollectionPrototype.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Thargy.SqlTester.SqlErrorPrototype">
+    <Position X="10.75" Y="8" Width="1.5" />
+    <Members>
+      <Field Name="_constructor" Hidden="true" />
+      <Method Name="implicit operator SqlError" Hidden="true" />
+      <Method Name="implicit operator SqlErrorPrototype" Hidden="true" />
+      <Method Name="SqlErrorPrototype" Hidden="true" />
+      <Method Name="ToString" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>IAAQAAAAAgAAAAAkAUIIIAAAAAAAAAAAAAAAJgAAAAA=</HashCode>
+      <FileName>SqlErrorPrototype.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Thargy.SqlTester.IObjectRecord">
+    <Position X="0.5" Y="5.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IObjectRecord.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Thargy.SqlTester.IObjectSet">
+    <Position X="0.5" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IObjectSet.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Calibri" Size="9.75" />
+</ClassDiagram>
